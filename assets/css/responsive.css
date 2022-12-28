@@ -150,6 +150,7 @@
     display: none;
     animation: mobileSearchFadeIn 0.3s linear;
     padding-right: 10px;
+    height: 48px;
   }
   @keyframes mobileSearchFadeIn {
       from {
@@ -200,5 +201,9 @@
   }
   .footer__list-item-link {
     text-align: center;
+    justify-content: center;
+  }
+  .searcher__search-input.searcher__search-input--mobile {
+    display: inline-block;
   }
 }

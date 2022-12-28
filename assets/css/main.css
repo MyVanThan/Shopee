@@ -618,6 +618,9 @@
   flex: 1;
   position: relative;
 }
+.footer__list-item-link--has-icon--fb {
+  margin-left: -1px;
+}
 .searcher__search-input {
   width: 100%;
   font-size: 1.4rem;
@@ -626,7 +629,9 @@
   outline: none;
   margin: 2px 0 1px 0;
 }
-
+.searcher__search-input.searcher__search-input--mobile {
+  display: none;
+}
 .searcher__search-input::placeholder {
   font-weight: 300;
 }
